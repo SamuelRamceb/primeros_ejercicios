@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora! :D</title>
+</head>
+
+<body>
+    <!-- creación del formulario para enviar los datos por método get -->
+    <form action="calculator.php" method="GET">
+        <fieldset>
+            <legend>Calculadora</legend>
+            <!-- datos del primer campo -->
+            <label for="input1">Ingrese su primer número</label>
+            <input type="number" name="input1" id="input1">
+            <br>
+            <!-- datos del segundo campo -->
+            <label for="input2">Ingrese su segundo número</label>
+            <input type="number" name="input2" id="input2">
+            <br>
+            <!-- elección de la operación matematica -->
+            <select name="operacion" id="operacion">
+                <option value="suma">suma</option>
+                <option value="resta">resta</option>
+                <option value="multi">multiplicacion</option>
+                <option value="divi">division</option>
+            </select>
+            <!-- botón de envio -->
+            <input type="submit" value="Calcular">
+        </fieldset>
+    </form>
+</body>
+
+</html>

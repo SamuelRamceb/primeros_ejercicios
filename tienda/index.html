@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Mascotas</title>
+</head>
+
+<body>
+    <form action="envio.php" method="get">
+        <fieldset>
+            <legend>Formulario Tienda de Mascotas</legend>
+            <label for="importe">Importe</label>
+            <input type="number" name="importe" id="importe" min="1" required>
+            <br>
+            <label for="tipo_compra">Tipo de compra</label>
+            <select name="tipo_compra" id="tipo_compra">
+                <option value="mascota">mascota</option>
+                <option value="ropa">ropa</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
