@@ -20,11 +20,11 @@
                 <td colspan="2"><label for="numero2">Operando 2:</label> <input type="number" name="OPERANDO2" id="numero2"></td>
             </tr>
             <tr>
-                <td><input type="radio" name="operacion" value="SUMA" id="1">suma</td>
-                <td><input type="radio" name="operacion" value="RESTA" id="2">resta</td>
-                <td><input type="radio" name="operacion" value="DIVISION" id="3">division</td>
-                <td><input type="radio" name="operacion" value="PRODUCTO" id="4">producto</td>
-                <td><input type="radio" name="operacion" value="CONCATENACION" id="5">concatenacion</td>
+                <td><input type="radio" name="OPERACION" value="SUMA" id="1">suma</td>
+                <td><input type="radio" name="OPERACION" value="RESTA" id="2">resta</td>
+                <td><input type="radio" name="OPERACION" value="DIVISION" id="3">division</td>
+                <td><input type="radio" name="OPERACION" value="PRODUCTO" id="4">producto</td>
+                <td><input type="radio" name="OPERACION" value="CONCATENACION" id="5">concatenacion</td>
             </tr>
             <tr>
                 <td colspan="5"><input type="checkbox" name="ROJOS" value="SI" id="neg">
@@ -32,7 +32,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="5"><input type="button" value="Calcular"></td>
+                <td colspan="5"><input type="submit" value="Calcular"></td>
             </tr>
         </table>
     </form>
