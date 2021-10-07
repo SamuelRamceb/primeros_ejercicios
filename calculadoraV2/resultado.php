@@ -7,10 +7,15 @@ $operacion = $_GET['OPERACION'];
 $color = $_GET['ROJOS'];
 
 /* Llamado a la función de la calculadora */
+if (isset($operando1, $operando2, $operacion, $color)) {
+    /* llamar a la versión sin negativos */
+} else {
+    /* llamar a la versión negativos */
+}
 calcula($operando1, $operando2, $operacion);
 
 /* Funcionamiento de la calculadora */
-function calcula($n1, $n2, $op, $red)
+/* function calcula($n1, $n2, $op, $red) */
 {
     
     if(isset($n1, $n2, $op)){
