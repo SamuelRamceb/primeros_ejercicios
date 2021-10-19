@@ -1,0 +1,14 @@
+Solicitar mediante un formulario que se instroduzca un nombre y una clave.
+
+otra página debe verifica si introdujo como clave el string "z80", si es válido para todos los usuarios
+
+si la clave es correcta, la aplicación debe mostrar un mensaje de bienvenida, "Bienvenido Pedro", siendo pedro el nombre
+introducido.
+
+Si la clave es incorrecta, debe redirigir de nuevo a la página inicial, enviando la variable error=1;
+
+Si error=1, la página inicial debe cargar de nuevo el formulario y mostrar el siguiente mensaje: "la clave introducida no es 
+correcta".
+
+El formulario NO puede ser la página desde la que arranca mi aplicación, debes crear una página llamada inicio.php que se ocupe
+de cargar el formulario cuando sea necesario.
