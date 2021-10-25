@@ -12,5 +12,4 @@ foreach ($_FILES as $key => $value) {
         echo "Possible file upload attack!" . "<br>";
     }
 }
-
-// var_dump($_FILES);
+ var_dump($_FILES);
